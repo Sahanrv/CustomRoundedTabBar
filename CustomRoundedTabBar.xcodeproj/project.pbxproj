@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ED3FA021A2B30BD206F4CE9 /* Pods_CustomRoundedTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78518C49363001DD52BB181 /* Pods_CustomRoundedTabBar.framework */; };
+		870E26899DAD88C187A2B08C /* Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC120ECF09E329EE098A8C2 /* Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests.framework */; };
+		ED257ADC41220A83FDA91DDC /* Pods_CustomRoundedTabBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9787D1B79A8CD0DBC462E3 /* Pods_CustomRoundedTabBarTests.framework */; };
+		FB121EE3246BE2F600AD908E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121EE2246BE2F600AD908E /* AppDelegate.swift */; };
+		FB121EE5246BE2F600AD908E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121EE4246BE2F600AD908E /* SceneDelegate.swift */; };
+		FB121EE7246BE2F600AD908E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121EE6246BE2F600AD908E /* ViewController.swift */; };
+		FB121EEA246BE2F600AD908E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB121EE8246BE2F600AD908E /* Main.storyboard */; };
+		FB121EEC246BE2F800AD908E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB121EEB246BE2F800AD908E /* Assets.xcassets */; };
+		FB121EEF246BE2F800AD908E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB121EED246BE2F800AD908E /* LaunchScreen.storyboard */; };
+		FB121EFA246BE2F900AD908E /* CustomRoundedTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121EF9246BE2F900AD908E /* CustomRoundedTabBarTests.swift */; };
+		FB121F05246BE2F900AD908E /* CustomRoundedTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F04246BE2F900AD908E /* CustomRoundedTabBarUITests.swift */; };
+		FB121F15246BE3A700AD908E /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F14246BE3A700AD908E /* ViewControllerTwo.swift */; };
+		FB121F17246BE3B300AD908E /* ViewThreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F16246BE3B300AD908E /* ViewThreeController.swift */; };
+		FB121F19246BE3C000AD908E /* ViewControllerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F18246BE3C000AD908E /* ViewControllerFour.swift */; };
+		FB121F1B246BE3CE00AD908E /* ViewControllerFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F1A246BE3CE00AD908E /* ViewControllerFive.swift */; };
+		FB121F1E246BE53C00AD908E /* RoundedCenterButtonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F1D246BE53C00AD908E /* RoundedCenterButtonTabBar.swift */; };
+		FB121F4D246C030B00AD908E /* AppTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F4C246C030B00AD908E /* AppTabBar.swift */; };
+		FB121F51246C04AC00AD908E /* EBRoundedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F4F246C04AC00AD908E /* EBRoundedTabBarItem.swift */; };
+		FB121F52246C04AC00AD908E /* EBRoundedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F50246C04AC00AD908E /* EBRoundedTabBarController.swift */; };
+		FB121F54246C04F100AD908E /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F53246C04F100AD908E /* CustomViewController.swift */; };
+		FB121F56246C08A200AD908E /* ProminenTbBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F55246C08A200AD908E /* ProminenTbBar.swift */; };
+		FB121F58246C08EA00AD908E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB121F57246C08EA00AD908E /* TabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB121EF6246BE2F900AD908E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB121ED7246BE2F600AD908E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB121EDE246BE2F600AD908E;
+			remoteInfo = CustomRoundedTabBar;
+		};
+		FB121F01246BE2F900AD908E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB121ED7246BE2F600AD908E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB121EDE246BE2F600AD908E;
+			remoteInfo = CustomRoundedTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9787D1B79A8CD0DBC462E3 /* Pods_CustomRoundedTabBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRoundedTabBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA3343A72BDC663BFFD7D27 /* Pods-CustomRoundedTabBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRoundedTabBarTests.release.xcconfig"; path = "Target Support Files/Pods-CustomRoundedTabBarTests/Pods-CustomRoundedTabBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		0ED04A373D2D8B50DE897D84 /* Pods-CustomRoundedTabBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRoundedTabBarTests.debug.xcconfig"; path = "Target Support Files/Pods-CustomRoundedTabBarTests/Pods-CustomRoundedTabBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FF15C2382B6E650E8067F4B /* Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests/Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC120ECF09E329EE098A8C2 /* Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64F9F13208B7F0AEB75C1AA /* Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.release.xcconfig"; path = "Target Support Files/Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests/Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAAD2430DE925CD15B5DD296 /* Pods-CustomRoundedTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRoundedTabBar.release.xcconfig"; path = "Target Support Files/Pods-CustomRoundedTabBar/Pods-CustomRoundedTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		E77718F5400EA427868EAAC4 /* Pods-CustomRoundedTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRoundedTabBar.debug.xcconfig"; path = "Target Support Files/Pods-CustomRoundedTabBar/Pods-CustomRoundedTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		E78518C49363001DD52BB181 /* Pods_CustomRoundedTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRoundedTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121EDF246BE2F600AD908E /* CustomRoundedTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomRoundedTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121EE2246BE2F600AD908E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB121EE4246BE2F600AD908E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB121EE6246BE2F600AD908E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB121EE9246BE2F600AD908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB121EEB246BE2F800AD908E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB121EEE246BE2F800AD908E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB121EF0246BE2F800AD908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB121EF5246BE2F900AD908E /* CustomRoundedTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomRoundedTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121EF9246BE2F900AD908E /* CustomRoundedTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedTabBarTests.swift; sourceTree = "<group>"; };
+		FB121EFB246BE2F900AD908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB121F00246BE2F900AD908E /* CustomRoundedTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomRoundedTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121F04246BE2F900AD908E /* CustomRoundedTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedTabBarUITests.swift; sourceTree = "<group>"; };
+		FB121F06246BE2F900AD908E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB121F14246BE3A700AD908E /* ViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		FB121F16246BE3B300AD908E /* ViewThreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThreeController.swift; sourceTree = "<group>"; };
+		FB121F18246BE3C000AD908E /* ViewControllerFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFour.swift; sourceTree = "<group>"; };
+		FB121F1A246BE3CE00AD908E /* ViewControllerFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFive.swift; sourceTree = "<group>"; };
+		FB121F1D246BE53C00AD908E /* RoundedCenterButtonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCenterButtonTabBar.swift; sourceTree = "<group>"; };
+		FB121F33246BFA6600AD908E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FB121F35246BFA6600AD908E /* TTTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTabBar.swift; sourceTree = "<group>"; };
+		FB121F36246BFA6600AD908E /* TTTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTabBarItem.swift; sourceTree = "<group>"; };
+		FB121F37246BFA6600AD908E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB121F38246BFA6600AD908E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FB121F39246BFA6600AD908E /* tabExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabExample.png; sourceTree = "<group>"; };
+		FB121F3A246BFA6600AD908E /* TTTabBar.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TTTabBar.podspec; sourceTree = "<group>"; };
+		FB121F3B246BFABA00AD908E /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = "../../../../Desktop/PNut Stuf/ESTabBarController-master/ESTabBarControllerExample/ESTabBarControllerExample/Framework/pop.framework"; sourceTree = "<group>"; };
+		FB121F47246BFCEA00AD908E /* ESTabBarController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ESTabBarController_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB121F4C246C030B00AD908E /* AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBar.swift; sourceTree = "<group>"; };
+		FB121F4F246C04AC00AD908E /* EBRoundedTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBRoundedTabBarItem.swift; sourceTree = "<group>"; };
+		FB121F50246C04AC00AD908E /* EBRoundedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBRoundedTabBarController.swift; sourceTree = "<group>"; };
+		FB121F53246C04F100AD908E /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		FB121F55246C08A200AD908E /* ProminenTbBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProminenTbBar.swift; sourceTree = "<group>"; };
+		FB121F57246C08EA00AD908E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB121EDC246BE2F600AD908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED3FA021A2B30BD206F4CE9 /* Pods_CustomRoundedTabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121EF2246BE2F900AD908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED257ADC41220A83FDA91DDC /* Pods_CustomRoundedTabBarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121EFD246BE2F900AD908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870E26899DAD88C187A2B08C /* Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82884E555884698BCEE3D2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F47246BFCEA00AD908E /* ESTabBarController_swift.framework */,
+				FB121F3B246BFABA00AD908E /* pop.framework */,
+				FB121F32246BFA6600AD908E /* TTTabBar-master */,
+				E78518C49363001DD52BB181 /* Pods_CustomRoundedTabBar.framework */,
+				6AC120ECF09E329EE098A8C2 /* Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests.framework */,
+				0B9787D1B79A8CD0DBC462E3 /* Pods_CustomRoundedTabBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A694D62BD30535BBADC2298D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E77718F5400EA427868EAAC4 /* Pods-CustomRoundedTabBar.debug.xcconfig */,
+				DAAD2430DE925CD15B5DD296 /* Pods-CustomRoundedTabBar.release.xcconfig */,
+				3FF15C2382B6E650E8067F4B /* Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.debug.xcconfig */,
+				A64F9F13208B7F0AEB75C1AA /* Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.release.xcconfig */,
+				0ED04A373D2D8B50DE897D84 /* Pods-CustomRoundedTabBarTests.debug.xcconfig */,
+				0DA3343A72BDC663BFFD7D27 /* Pods-CustomRoundedTabBarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB121ED6246BE2F600AD908E = {
+			isa = PBXGroup;
+			children = (
+				FB121EE1246BE2F600AD908E /* CustomRoundedTabBar */,
+				FB121EF8246BE2F900AD908E /* CustomRoundedTabBarTests */,
+				FB121F03246BE2F900AD908E /* CustomRoundedTabBarUITests */,
+				FB121EE0246BE2F600AD908E /* Products */,
+				A694D62BD30535BBADC2298D /* Pods */,
+				82884E555884698BCEE3D2EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB121EE0246BE2F600AD908E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB121EDF246BE2F600AD908E /* CustomRoundedTabBar.app */,
+				FB121EF5246BE2F900AD908E /* CustomRoundedTabBarTests.xctest */,
+				FB121F00246BE2F900AD908E /* CustomRoundedTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB121EE1246BE2F600AD908E /* CustomRoundedTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F4E246C04AC00AD908E /* Classes */,
+				FB121F1C246BE51400AD908E /* CustomTabBar */,
+				FB121F13246BE37500AD908E /* Vc2345 */,
+				FB121F12246BE36500AD908E /* VC1 */,
+				FB121EE2246BE2F600AD908E /* AppDelegate.swift */,
+				FB121EE4246BE2F600AD908E /* SceneDelegate.swift */,
+				FB121EE8246BE2F600AD908E /* Main.storyboard */,
+				FB121EEB246BE2F800AD908E /* Assets.xcassets */,
+				FB121EED246BE2F800AD908E /* LaunchScreen.storyboard */,
+				FB121EF0246BE2F800AD908E /* Info.plist */,
+			);
+			path = CustomRoundedTabBar;
+			sourceTree = "<group>";
+		};
+		FB121EF8246BE2F900AD908E /* CustomRoundedTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB121EF9246BE2F900AD908E /* CustomRoundedTabBarTests.swift */,
+				FB121EFB246BE2F900AD908E /* Info.plist */,
+			);
+			path = CustomRoundedTabBarTests;
+			sourceTree = "<group>";
+		};
+		FB121F03246BE2F900AD908E /* CustomRoundedTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F04246BE2F900AD908E /* CustomRoundedTabBarUITests.swift */,
+				FB121F06246BE2F900AD908E /* Info.plist */,
+			);
+			path = CustomRoundedTabBarUITests;
+			sourceTree = "<group>";
+		};
+		FB121F12246BE36500AD908E /* VC1 */ = {
+			isa = PBXGroup;
+			children = (
+				FB121EE6246BE2F600AD908E /* ViewController.swift */,
+			);
+			path = VC1;
+			sourceTree = "<group>";
+		};
+		FB121F13246BE37500AD908E /* Vc2345 */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F14246BE3A700AD908E /* ViewControllerTwo.swift */,
+				FB121F16246BE3B300AD908E /* ViewThreeController.swift */,
+				FB121F18246BE3C000AD908E /* ViewControllerFour.swift */,
+				FB121F1A246BE3CE00AD908E /* ViewControllerFive.swift */,
+			);
+			path = Vc2345;
+			sourceTree = "<group>";
+		};
+		FB121F1C246BE51400AD908E /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F1D246BE53C00AD908E /* RoundedCenterButtonTabBar.swift */,
+				FB121F4C246C030B00AD908E /* AppTabBar.swift */,
+			);
+			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		FB121F32246BFA6600AD908E /* TTTabBar-master */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F33246BFA6600AD908E /* LICENSE */,
+				FB121F34246BFA6600AD908E /* TTTabBar */,
+				FB121F37246BFA6600AD908E /* README.md */,
+				FB121F38246BFA6600AD908E /* .gitignore */,
+				FB121F39246BFA6600AD908E /* tabExample.png */,
+				FB121F3A246BFA6600AD908E /* TTTabBar.podspec */,
+			);
+			name = "TTTabBar-master";
+			path = "../../../../Desktop/PNut Stuf/TTTabBar-master";
+			sourceTree = "<group>";
+		};
+		FB121F34246BFA6600AD908E /* TTTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F35246BFA6600AD908E /* TTTabBar.swift */,
+				FB121F36246BFA6600AD908E /* TTTabBarItem.swift */,
+			);
+			path = TTTabBar;
+			sourceTree = "<group>";
+		};
+		FB121F4E246C04AC00AD908E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB121F53246C04F100AD908E /* CustomViewController.swift */,
+				FB121F4F246C04AC00AD908E /* EBRoundedTabBarItem.swift */,
+				FB121F50246C04AC00AD908E /* EBRoundedTabBarController.swift */,
+				FB121F55246C08A200AD908E /* ProminenTbBar.swift */,
+				FB121F57246C08EA00AD908E /* TabBarController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB121EDE246BE2F600AD908E /* CustomRoundedTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB121F09246BE2F900AD908E /* Build configuration list for PBXNativeTarget "CustomRoundedTabBar" */;
+			buildPhases = (
+				E4ABD77183E9C91122E800D0 /* [CP] Check Pods Manifest.lock */,
+				FB121EDB246BE2F600AD908E /* Sources */,
+				FB121EDC246BE2F600AD908E /* Frameworks */,
+				FB121EDD246BE2F600AD908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomRoundedTabBar;
+			productName = CustomRoundedTabBar;
+			productReference = FB121EDF246BE2F600AD908E /* CustomRoundedTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB121EF4246BE2F900AD908E /* CustomRoundedTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB121F0C246BE2F900AD908E /* Build configuration list for PBXNativeTarget "CustomRoundedTabBarTests" */;
+			buildPhases = (
+				58F54F52AB2310D3704A4C2B /* [CP] Check Pods Manifest.lock */,
+				FB121EF1246BE2F900AD908E /* Sources */,
+				FB121EF2246BE2F900AD908E /* Frameworks */,
+				FB121EF3246BE2F900AD908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB121EF7246BE2F900AD908E /* PBXTargetDependency */,
+			);
+			name = CustomRoundedTabBarTests;
+			productName = CustomRoundedTabBarTests;
+			productReference = FB121EF5246BE2F900AD908E /* CustomRoundedTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB121EFF246BE2F900AD908E /* CustomRoundedTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB121F0F246BE2F900AD908E /* Build configuration list for PBXNativeTarget "CustomRoundedTabBarUITests" */;
+			buildPhases = (
+				B5E6195C1561DBD07142229A /* [CP] Check Pods Manifest.lock */,
+				FB121EFC246BE2F900AD908E /* Sources */,
+				FB121EFD246BE2F900AD908E /* Frameworks */,
+				FB121EFE246BE2F900AD908E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB121F02246BE2F900AD908E /* PBXTargetDependency */,
+			);
+			name = CustomRoundedTabBarUITests;
+			productName = CustomRoundedTabBarUITests;
+			productReference = FB121F00246BE2F900AD908E /* CustomRoundedTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB121ED7246BE2F600AD908E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sahan Ravindu";
+				TargetAttributes = {
+					FB121EDE246BE2F600AD908E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FB121EF4246BE2F900AD908E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FB121EDE246BE2F600AD908E;
+					};
+					FB121EFF246BE2F900AD908E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FB121EDE246BE2F600AD908E;
+					};
+				};
+			};
+			buildConfigurationList = FB121EDA246BE2F600AD908E /* Build configuration list for PBXProject "CustomRoundedTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB121ED6246BE2F600AD908E;
+			productRefGroup = FB121EE0246BE2F600AD908E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB121EDE246BE2F600AD908E /* CustomRoundedTabBar */,
+				FB121EF4246BE2F900AD908E /* CustomRoundedTabBarTests */,
+				FB121EFF246BE2F900AD908E /* CustomRoundedTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB121EDD246BE2F600AD908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121EEF246BE2F800AD908E /* LaunchScreen.storyboard in Resources */,
+				FB121EEC246BE2F800AD908E /* Assets.xcassets in Resources */,
+				FB121EEA246BE2F600AD908E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121EF3246BE2F900AD908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121EFE246BE2F900AD908E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58F54F52AB2310D3704A4C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomRoundedTabBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5E6195C1561DBD07142229A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4ABD77183E9C91122E800D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomRoundedTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB121EDB246BE2F600AD908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121EE7246BE2F600AD908E /* ViewController.swift in Sources */,
+				FB121F56246C08A200AD908E /* ProminenTbBar.swift in Sources */,
+				FB121F51246C04AC00AD908E /* EBRoundedTabBarItem.swift in Sources */,
+				FB121F4D246C030B00AD908E /* AppTabBar.swift in Sources */,
+				FB121F54246C04F100AD908E /* CustomViewController.swift in Sources */,
+				FB121EE3246BE2F600AD908E /* AppDelegate.swift in Sources */,
+				FB121F19246BE3C000AD908E /* ViewControllerFour.swift in Sources */,
+				FB121EE5246BE2F600AD908E /* SceneDelegate.swift in Sources */,
+				FB121F52246C04AC00AD908E /* EBRoundedTabBarController.swift in Sources */,
+				FB121F1E246BE53C00AD908E /* RoundedCenterButtonTabBar.swift in Sources */,
+				FB121F15246BE3A700AD908E /* ViewControllerTwo.swift in Sources */,
+				FB121F58246C08EA00AD908E /* TabBarController.swift in Sources */,
+				FB121F17246BE3B300AD908E /* ViewThreeController.swift in Sources */,
+				FB121F1B246BE3CE00AD908E /* ViewControllerFive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121EF1246BE2F900AD908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121EFA246BE2F900AD908E /* CustomRoundedTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB121EFC246BE2F900AD908E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB121F05246BE2F900AD908E /* CustomRoundedTabBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB121EF7246BE2F900AD908E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB121EDE246BE2F600AD908E /* CustomRoundedTabBar */;
+			targetProxy = FB121EF6246BE2F900AD908E /* PBXContainerItemProxy */;
+		};
+		FB121F02246BE2F900AD908E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB121EDE246BE2F600AD908E /* CustomRoundedTabBar */;
+			targetProxy = FB121F01246BE2F900AD908E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB121EE8246BE2F600AD908E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB121EE9246BE2F600AD908E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB121EED246BE2F800AD908E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB121EEE246BE2F800AD908E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB121F07246BE2F900AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB121F08246BE2F900AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB121F0A246BE2F900AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77718F5400EA427868EAAC4 /* Pods-CustomRoundedTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomRoundedTabBar",
+				);
+				INFOPLIST_FILE = CustomRoundedTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CustomRoundedTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB121F0B246BE2F900AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAD2430DE925CD15B5DD296 /* Pods-CustomRoundedTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomRoundedTabBar",
+				);
+				INFOPLIST_FILE = CustomRoundedTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CustomRoundedTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB121F0D246BE2F900AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED04A373D2D8B50DE897D84 /* Pods-CustomRoundedTabBarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CustomRoundedTabBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CustomRoundedTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomRoundedTabBar.app/CustomRoundedTabBar";
+			};
+			name = Debug;
+		};
+		FB121F0E246BE2F900AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA3343A72BDC663BFFD7D27 /* Pods-CustomRoundedTabBarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CustomRoundedTabBarTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CustomRoundedTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomRoundedTabBar.app/CustomRoundedTabBar";
+			};
+			name = Release;
+		};
+		FB121F10246BE2F900AD908E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF15C2382B6E650E8067F4B /* Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CustomRoundedTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CustomRoundedTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomRoundedTabBar;
+			};
+			name = Debug;
+		};
+		FB121F11246BE2F900AD908E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64F9F13208B7F0AEB75C1AA /* Pods-CustomRoundedTabBar-CustomRoundedTabBarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LL3T2Z2B;
+				INFOPLIST_FILE = CustomRoundedTabBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emedia.CustomRoundedTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomRoundedTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB121EDA246BE2F600AD908E /* Build configuration list for PBXProject "CustomRoundedTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F07246BE2F900AD908E /* Debug */,
+				FB121F08246BE2F900AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB121F09246BE2F900AD908E /* Build configuration list for PBXNativeTarget "CustomRoundedTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F0A246BE2F900AD908E /* Debug */,
+				FB121F0B246BE2F900AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB121F0C246BE2F900AD908E /* Build configuration list for PBXNativeTarget "CustomRoundedTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F0D246BE2F900AD908E /* Debug */,
+				FB121F0E246BE2F900AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB121F0F246BE2F900AD908E /* Build configuration list for PBXNativeTarget "CustomRoundedTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB121F10246BE2F900AD908E /* Debug */,
+				FB121F11246BE2F900AD908E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB121ED7246BE2F600AD908E /* Project object */;
+}

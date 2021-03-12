@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests : NSObject
+@end
+@implementation PodsDummy_Pods_CustomRoundedTabBar_CustomRoundedTabBarUITests
+@end
